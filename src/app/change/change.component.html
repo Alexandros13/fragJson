@@ -1,0 +1,34 @@
+<div class='container'>
+
+<input [(ngModel)]= "Object1.name">  ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑ ΚΑΙΝΟΥΡΓΙΟ ΟΝΟΜΑ
+<br> <br>
+<input [(ngModel)]= "Object1.surname">  ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑ ΚΑΙΝΟΥΡΓΙΟ ΕΠΙΘΕΤΟ
+
+<br> <br>
+<input [(ngModel)]= "Object1.age">  ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΜΙΑ ΚΑΙΝΟΥΡΓΙΑ ΗΛΙΚΙΑ
+<br> <br>
+<div *ngFor="let item of Object1?.siblings">  
+
+<input [(ngModel)]= "item.name">  ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑ ΚΑΙΝΟΥΡΓΙΟ ΟΝΟΜΑ ΓΙΑ ΤΟ ΔΙΔΥΜΟ
+<br> <br>
+<input [(ngModel)]= "item.age">  ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑ ΚΑΙΝΟΥΡΓΙΟ ΕΠΙΘΕΤΟ
+<br> <br>
+<input [(ngModel)]= "item.sex">  ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑ ΚΑΙΝΟΥΡΓΙΟ ΦΥΛΟ 
+<br> <br>
+</div>
+
+</div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

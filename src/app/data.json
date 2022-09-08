@@ -1,0 +1,11 @@
+
+{
+    "name":"John",
+	"surname":"Doe",
+	"age":25,
+	"siblings":
+	[
+		{"name":"Anna" , "age":12 , "sex":"female"},
+		{"name":"George" , "age":28 , "sex":"male"}
+	]
+}

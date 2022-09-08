@@ -11,6 +11,8 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "resolveJsonModule":true,
+    "esModuleInterop": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
@@ -28,5 +30,6 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
+    
   }
 }

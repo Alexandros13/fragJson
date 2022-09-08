@@ -1,0 +1,33 @@
+<div class="container">  
+    
+    <h1> A Delicant Display of the json file </h1>  
+      
+    <table class="table table-striped">  
+      <thead>  
+          <tr>  
+            <th>Name</th>  
+            <th>Surname</th>  
+            <th>Age</th>  
+            <th>1st Sibling Name</th>
+            <th>1st Sibling Age</th>
+            <th>1st Sibling Sex</th>
+            <th>2nd Sibling Name</th>
+            <th>2nd Sibling Age</th>
+            <th>2nd Sibling Sex</th>        
+          </tr>  
+      </thead>  
+      <tbody> 
+        <td>{{ Object?.name }}</td>  
+        <td>{{ Object?.surname }}</td>
+        <td>{{ Object?.age }}</td>  
+        <tr *ngFor="let item of Object?.siblings">  
+         
+          <td>{{ item.name}}</td>
+          <td>{{ item.age}}</td>
+          <td>{{ item.sex}}</td>
+         
+        </tr>  
+      </tbody>  
+    </table>  
+  </div>
+  <app-change [Object1]="Object"></app-change>
